@@ -73,4 +73,4 @@ def upload_file():
         return jsonify({'message': 'Invalid file format. Only DOCX files are accepted.'}), 400
 
 if __name__ == '__main__':
-   app.run(host='0.0.0.0', port=5006, debug=True)
+   app.run(debug=True, host='0.0.0.0', port=5006)
